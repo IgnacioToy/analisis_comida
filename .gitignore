@@ -1,0 +1,27 @@
+# === Librerías y Entornos Virtuales ===
+# Esto evita que se carguen las carpetas donde se instalan las librerías
+venv/
+env/
+.venv/
+ENV/
+bin/
+lib/
+share/python-wheels/
+
+# === Jupyter Notebook ===
+# Ignora los puntos de control de guardado automático (backups locales)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# === Archivos temporales de Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Archivos de Datos (Opcional pero recomendado) ===
+# Si descargas archivos pesados (CSV, JSON) para análisis, es mejor no subirlos
+
+
+# === Otros ===
+.DS_Store
+.env
